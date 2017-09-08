@@ -8,7 +8,7 @@
 # 			count +=1
 # 		print empty_str
 
-# x = [4, 6, 1, 3, 5, 7, 25]
+y = [4, 6, 1, 3, 5, 7, 25]
 # draw_stars(x)
 
 # ------------------------------
@@ -32,4 +32,5 @@ def draw_stars(the_list):
 
 x = [4, "Tom", 1, "Michael", 5, 7, "Jimmy Smith"]
 
+draw_stars(y)
 draw_stars(x)
