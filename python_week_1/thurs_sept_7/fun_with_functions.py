@@ -17,7 +17,7 @@ def multiply(l, num):
 		new_list.append(x * num)
 	return new_list
 
-multiply(a, 5)
+print multiply(a, 5)
 #-------------------------
 # Hacker Challenge:
 def layered_multiples(arr):
