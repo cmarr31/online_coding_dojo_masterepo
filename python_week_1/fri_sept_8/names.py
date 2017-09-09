@@ -33,7 +33,7 @@ def names_part_2(dictionary):
 		for people in dictionary[lists]:
 			count +=1
 			temp = people['first_name'] + ' ' + people['last_name']
-			temp = temp + ' ' + str(len(temp)-2)
+			temp = temp + ' ' + str(len(temp)-1)
 			print str(count) + ' - ' + temp
 
 names_part_2(users)
